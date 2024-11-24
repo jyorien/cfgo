@@ -17,7 +17,6 @@ func CosineSimilarity(vecA, vecB []float64) (float64, error) {
 	if err != nil {
 		return 0, err
 	}
-
 	normA, _ = vectors.Norm(vecA)
 	normB, _ = vectors.Norm(vecB)
 
